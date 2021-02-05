@@ -1,12 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome</title>
+    <meta name="robots" content="noindex">
+    <meta name="robots" content="nofollow">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="description" content="コードの練習サイト">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <title>Coding Practice</title>
   </head>
   <body>
-    <h1>Success!</h1>
+    <header>
+      <nav class="nav">
+        <div class="container">
+          <h1 class="logo">Coding Practice</h1>
+          <ul class="navbar">
+            <li class="navItem"><a href="#">Top</a></li>
+            <li class="navItem"><a href="#blog">My blog</a></li>
+            <li class="navItem"><a href="#contact">Just contact</a></li>
+          </ul>
+          <div class="spMenu">
+            <div id="nav-drawer">
+<input id="nav-input" type="checkbox" class="nav-unshown">
+<label id="nav-open" for="nav-input"><span></span></label>
+<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+<div id="nav-content">
+<ul class="drawerList">
+<li class="drawerItem">
+<a href="#">Top</a>
+</li>
+<li class="drawerItem">
+<a href="#blog">My Challenge</a>
+</li>
+<li class="drawerItem">
+<a href="#contact">Just Continue</a>
+</li>
+</ul>
+</div>
+          </div></div>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="heroTl">Coding Practice Everyday!!</div>
+        <div class="heroTxt">Start from HERE</div>
+      </div>
+    </header>
+    <section class="blog" id="blog">
+      <h2 class="secTl">My Challenge</h2>
+      <div class="boxWrap">
+        <div class="box"><img src="./images/blog01.jpg" alt="">
+          <h3 class="blogTl">もくもく会in大阪のコーディング イベントに参加してきました！！</h3>
+          <div class="blogDate">2020.06.28</div>
+        </div>
+        <div class="box"><img src="./images/blog02.jpg" alt="">
+          <h3 class="blogTl">模写コーディングを１つ終わらせ ることができました！！次はもう 少し難しいものに挑戦します！</h3>
+          <div class="blogDate">2020.07.02</div>
+        </div>
+        <div class="box"><img src="./images/blog03.jpg" alt="">
+          <h3 class="blogTl">「1冊ですべて身につくHTML/C SSとWebデザイン入門講座」を 完走しました！！</h3>
+          <div class="blogDate">2020.07.10</div>
+        </div>
+      </div>
+      <div class="btn"><a href="">もっと見る</a></div>
+    </section>
+    <div class="contact" id="contact">
+      <div class="container">
+        <h2 class="contactTl">Just Continue</h2>
+        <p>日々、学び続ける<br>いつか、Webで世界を今より少しだけ|<br>よくするために<br>でも、今は自分のために<br>毎日少しずつ勉強する<br>そんな私と共に学んでくれる方を募集しています</p>
+        <div class="btn"><a href="">お問い合わせしてみる</a></div>
+      </div>
+    </div>
+    <footer class="copyLight">copyright(C) 2020<br class="brsm">All Rights Reserved.</footer>
   </body>
 </html>
